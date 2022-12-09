@@ -1,0 +1,1 @@
+console.log(typeof function {a,b}(return a+b));

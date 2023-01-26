@@ -42,7 +42,7 @@ let boolfalse = false;
 // equality operator '=='
 console.log('equality operator');
 console.log('is person equal to person?', person == person);
-console.log('is person equal to age?', person == age);
+console.log('is person equal to age_string?', person == age_string);
 console.log('is person equal to friends?', person == friends);
 console.log('is person null', person == profession);
 console.log('is person equal to array?', person == job);
@@ -71,8 +71,8 @@ console.log('are surname and surname_string different?', surname != surname_stri
 // identity operator '==='
 console.log('identity comparisons');
 console.log('does person and person have the same identity?', person === person);
-console.log('does age and age_string have the same identity?', age === age_string);
-console.log('does height and height_string have the same identity?', height === height_string);
+console.log('does person and age_string have the same identity?', person === age_string);
+console.log('does age_string and height_string have the same identity?', age_string === height_string);
 console.log('does friends and friend have the same identity?', friends === friend);
 console.log('does profession and profestring have the same identity?', profession === profestring);
 console.log('does job and job_string have the same identity?', job === job_string);
@@ -80,10 +80,10 @@ console.log('does surname and surname_string have the same identity?', surname =
 
 // non-identity operator '!=='
 console.log('inequality operator')
-console.log('does age and height do not have the same identity?', age != height);
-console.log('does person and surname do not have the same identity?', person != surname);
-console.log('does profession and surname do not have the same identity?', profession != surname);
-console.log('does friends and surname do not have the same identity?', friends != surname);
-console.log('does 0 and boolfalse do not have the same identity?', 0 != boolfalse);
-console.log('does friends and boolfalse do not have the same identity?', friends != boolfalse);
+console.log('does age and age do not have the same identity?', age !== age);
+console.log('does person and surname do not have the same identity?', person !== surname);
+console.log('does profession and surname do not have the same identity?', profession !== surname);
+console.log('does friends and surname do not have the same identity?', friends !== surname);
+console.log('does 0 and boolfalse do not have the same identity?', 0 !== boolfalse);
+console.log('does friends and boolfalse do not have the same identity?', friends !== boolfalse);
 

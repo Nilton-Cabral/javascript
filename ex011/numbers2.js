@@ -35,7 +35,7 @@ console.log(`3.1415 result:`, (3.1415).toFixed(1));
 console.log(`5/7 result:`, (5/7).toFixed(4));
 
 // toExponential() - returns a string in exponential notation based on the given floating point
+console.log('toExponential:')
 console.log('0.5 toExponential(1) result:', (0.5).toExponential(1));
 console.log('1 toExponential(1) result:', (1).toExponential(1));
-
 // 
